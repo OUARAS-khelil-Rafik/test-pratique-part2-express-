@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/86c58f43fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Closed - Working Hours</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo"><img src="/img/jeep.png" alt="logo" /></a>
+      <ul class="navbar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Our Services</a></li>
+        <li><a href="/contact">Contact us</a></li>
+      </ul>
+    </header>
+
+    <section class="home">
+      <div class="text">
+        <h1>We’re currently <span>closed</span></h1>
+        <p>
+          The website is accessible only during working hours:
+          <strong>Monday to Friday, 9:00 to 18:00</strong>.
+        </p>
+        <p>
+          Current server time:
+          <%= now.toLocaleString() %>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
